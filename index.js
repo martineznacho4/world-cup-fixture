@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
@@ -27,7 +28,7 @@ app.get("/api/teams/:id", (request, response) => {
   response.send(teams.find((team) => team.id.toString() === request.params.id));
 });
 
-const PORT = 3001;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`server initialized on port: ${PORT}`);
 });
