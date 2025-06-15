@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 
-const teams = require("../../projects/tmp/teams.js");
-const matches = require("../../projects/tmp/matches.js");
+const teams = require("./teams.js");
+const matches = require("./matches.js");
 
 const app = express();
 
