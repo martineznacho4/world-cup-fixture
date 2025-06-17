@@ -109,7 +109,7 @@ const matches = [
         team2: 8,
         time: "18:00",
         stage: "Group stage",
-        group: "Group F",
+        group: "Grfoup F",
         stadium: "MetLife Stadium (New York)",
         score1: 0,
         score2: 0,
